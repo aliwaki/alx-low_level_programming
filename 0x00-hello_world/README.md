@@ -19,3 +19,4 @@ printf("size of the long long int: %lu byte(s)/n", (unsigned long)sizeof(d));
 printf("size of the float: %lu byte(s)/n", (unsigned long)sizeof(f));
 return (0);
 } 
+gcc -S -masm=intel $CFILE:Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
