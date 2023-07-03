@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include<stdio.h>
-
 /**
   *main - Program entry point
   *
@@ -10,7 +9,6 @@
   *
   *Return: 0 for succes
   */
-
 int main(void)
 {
 	int n;
@@ -25,4 +23,5 @@ int main(void)
 	else
 		printf("%d is negative\n", n);
 	return (0);
+
 }	
